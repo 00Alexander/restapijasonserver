@@ -4,7 +4,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 'restapijasonserver-6346-md81pdgrf-00alexander.vercel.app';
 
 server.use(middlewares);
 server.use(router);
